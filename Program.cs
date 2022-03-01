@@ -72,7 +72,7 @@ namespace MyirstConsole
             Console.WriteLine(" ");
 
             String name1, address;
-            int age, mob,empid;
+            int age,empid;
 
             Console.WriteLine("Enter Employee name:");
             name1 = Console.ReadLine();
