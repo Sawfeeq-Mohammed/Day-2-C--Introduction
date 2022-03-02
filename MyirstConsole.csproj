@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>MyirstConsole.Calculator</StartupObject>
+    <StartupObject>MyirstConsole.ArrayMethhod</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -47,6 +47,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Calculator.cs" />
+    <Compile Include="ArrayMethhod.cs" />
+    <Compile Include="ParamArray.cs" />
+    <Compile Include="JaggedArray.cs" />
     <Compile Include="NaturalNumbers.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
