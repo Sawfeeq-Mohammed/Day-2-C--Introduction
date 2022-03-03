@@ -33,8 +33,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>MyirstConsole.Collections</StartupObject>
+    <StartupObject>MyirstConsole.Run</StartupObject>
   </PropertyGroup>
+  <PropertyGroup />
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -48,6 +49,7 @@
   <ItemGroup>
     <Compile Include="Calculator.cs" />
     <Compile Include="ArrayMethhod.cs" />
+    <Compile Include="ArrayFunction.cs" />
     <Compile Include="Collections.cs" />
     <Compile Include="Jagged2DArray.cs" />
     <Compile Include="ParamArray.cs" />

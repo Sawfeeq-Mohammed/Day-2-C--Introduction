@@ -1,27 +1,27 @@
-﻿using System;
-using System.Collections;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿//using System;
+//using System.Collections;
+//using System.Collections.Generic;
+//using System.Linq;
+//using System.Text;
+//using System.Threading.Tasks;
 
-namespace MyirstConsole
-{
-    internal class Collections
-    {
-        static void Main(string[] args)
-        {
-            list<int> mylist = new list<int>();
+//namespace MyirstConsole
+//{
+//    internal class Collections
+//    {
+//        static void Main(string[] args)
+//        {
+//            list<int> mylist = new list<int>();
 
-            mylist.add(10);
-            mylist.add(20);
-            mylist.add(30);
-            mylist.add(40);
+//            mylist.add(10);
+//            mylist.add(20);
+//            mylist.add(30);
+//            mylist.add(40);
 
-            foreach (int i in mylist)
-            {
-                console.writeline(i);
-            }
+//            foreach (int i in mylist)
+//            {
+//                console.writeline(i);
+//            }
             //linkedlist<string> mylist = new linkedlist<string>();
 
 
@@ -56,9 +56,9 @@ namespace MyirstConsole
             //    Console.WriteLine(i);
 
 
-                Console.ReadLine();
-            }
+//                Console.ReadLine();
+//            }
 
-        }
-    }
-}
+//        }
+//    }
+//}
