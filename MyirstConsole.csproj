@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>MyirstConsole.Run</StartupObject>
+    <StartupObject>MyirstConsole.Student</StartupObject>
   </PropertyGroup>
   <PropertyGroup />
   <ItemGroup>
@@ -50,6 +50,8 @@
     <Compile Include="Calculator.cs" />
     <Compile Include="ArrayMethhod.cs" />
     <Compile Include="ArrayFunction.cs" />
+    <Compile Include="Constructors.cs" />
+    <Compile Include="Inheritance.cs" />
     <Compile Include="Collections.cs" />
     <Compile Include="Jagged2DArray.cs" />
     <Compile Include="ParamArray.cs" />
