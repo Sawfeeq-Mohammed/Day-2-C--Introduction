@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>MyirstConsole.Student</StartupObject>
+    <StartupObject>MyirstConsole.GeneMain</StartupObject>
   </PropertyGroup>
   <PropertyGroup />
   <ItemGroup>
@@ -50,6 +50,7 @@
     <Compile Include="Calculator.cs" />
     <Compile Include="ArrayMethhod.cs" />
     <Compile Include="ArrayFunction.cs" />
+    <Compile Include="GenericClass.cs" />
     <Compile Include="Constructors.cs" />
     <Compile Include="Inheritance.cs" />
     <Compile Include="Collections.cs" />

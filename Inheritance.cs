@@ -24,7 +24,7 @@ namespace MyirstConsole
         public string modelName = "Mustang";  
     }
 
-    class Program
+    class Program1
     {
         static void Main(string[] args)
         {
