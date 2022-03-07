@@ -4,11 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace MyirstConsole
-{
-    class GenericClass
-    {
-    }
+//namespace MyirstConsole
+//{
+//    class GenericClass
+   // {
+    //}
     //public class Myclass<T>
     //{
     //    public void Compare(T v1, T v2)
@@ -77,44 +77,44 @@ namespace MyirstConsole
     //        return val1 == val2;
     //    }
     //}
-    class CompareClass
-    {
-        public bool Compare(string x, string y)
-        {
-            if (x.Equals(y)) return true;
-            else return false;
-        }
-        public bool Compare(int x, int y)
-        {
-            if (x.Equals(y)) return true;
-            else return false;
-        }
-    }
-    class CompareGenericClass<T>
-    {
-        public bool Compare(T x, T y)
-        {
-            if (x.Equals(y)) return true;
-            else return false;
-        }
-    }
-    class GeneMain
-    {
-        static void Main(string[] args)
-        {
-            CompareClass obj = new CompareClass();
-            bool intresult = obj.Compare(5, 7);
-            Console.WriteLine("int compare result:" + intresult);
-            bool stringresult = obj.Compare("DEVESH", "DEVESH");
-            Console.WriteLine("string compare result:" + stringresult);
-            CompareGenericClass<string> Ocompare = new CompareGenericClass<string>();
-            bool stringResult = Ocompare.Compare("DEVESH", "DEVESH");
-            Console.WriteLine("Generic string compare result:" + stringResult);
-            CompareGenericClass<int> oIntcompare = new CompareGenericClass<int>();
-            bool integerresult = oIntcompare.Compare(5, 6);
-            Console.WriteLine("Generic int compare result:" + integerresult);
+//    class CompareClass
+//    {
+//        public bool Compare(string x, string y)
+//        {
+//            if (x.Equals(y)) return true;
+//            else return false;
+//        }
+//        public bool Compare(int x, int y)
+//        {
+//            if (x.Equals(y)) return true;
+//            else return false;
+//        }
+//    }
+//    class CompareGenericClass<T>
+//    {
+//        public bool Compare(T x, T y)
+//        {
+//            if (x.Equals(y)) return true;
+//            else return false;
+//        }
+//    }
+//    class GeneMain
+//    {
+//        static void Main(string[] args)
+//        {
+//            CompareClass obj = new CompareClass();
+//            bool intresult = obj.Compare(5, 7);
+//            Console.WriteLine("int compare result:" + intresult);
+//            bool stringresult = obj.Compare("DEVESH", "DEVESH");
+//            Console.WriteLine("string compare result:" + stringresult);
+//            CompareGenericClass<string> Ocompare = new CompareGenericClass<string>();
+//            bool stringResult = Ocompare.Compare("DEVESH", "DEVESH");
+//            Console.WriteLine("Generic string compare result:" + stringResult);
+//            CompareGenericClass<int> oIntcompare = new CompareGenericClass<int>();
+//            bool integerresult = oIntcompare.Compare(5, 6);
+//            Console.WriteLine("Generic int compare result:" + integerresult);
 
-            Console.ReadKey();
-        }
-    }
-}
+//            Console.ReadKey();
+//        }
+//    }
+//}
